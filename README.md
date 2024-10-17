@@ -29,8 +29,6 @@ Annolyze.directory()
     .read("lib.Hello");                                 // ClassFile
 ```
 
-**Not actually published to central yet, give me a bit <3**
-
 ### Gradle (Kotlin DSL)
 ```kotlin
 dependencies {
@@ -51,6 +49,11 @@ dependencies {
     <dependency>
         <groupId>io.github.wasabithumb</groupId>
         <artifactId>annolyze</artifactId>
+        <version>0.1.0</version>
+    </dependency>
+    <dependency>
+        <groupId>io.github.wasabithumb</groupId>
+        <artifactId>annolyze-internals</artifactId>
         <version>0.1.0</version>
     </dependency>
 </dependencies>
