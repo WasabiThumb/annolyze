@@ -1,3 +1,11 @@
+# NOTICE
+Since the release of Java 24 (and by extension the [class-file API](https://openjdk.org/jeps/484)), this library is redundant.
+The relevant documentation can be found [here](https://docs.oracle.com/en/java/javase/24/docs/api/java.base/java/lang/classfile/package-summary.html#reading-classfiles-heading).
+Hence, this repository has been archived. To see the original README, click the spoiler below.
+
+<details>
+<summary>Original README</summary>
+    
 # Annolyze
 A Java 17 - 21[†](#support) library for reading annotation & basic layout info from ``.class`` files without loading them into the JVM. This approach simply ignores linking steps, providing utilities to resolve references at runtime.
 Also provides utilities for class sources like ``ClassLoader``, archives and directories.
@@ -87,3 +95,4 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ```
+</details>
